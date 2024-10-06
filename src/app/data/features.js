@@ -26,9 +26,10 @@ const features = [
     {
         id: 4,
         name: "Sustains Life in darkness",
+        imageURL: "/4.jpg",
         content: "It enables life in some of the most hostile, lightless environments on Earth, where traditional photosynthesis cannot occur.",
         Explanation: "Chemosynthesis allows organisms to live and thrive in environments without light, utilizing chemical energy instead. This capability is crucial in habitats like deep-sea vents and sediments where sunlight cannot penetrate",
-        Significance: "The ability to sustain life in darkness demonstrates the versatility of biological processes and expands our understanding of where life can exist. It challenges previous assumptions about the conditions necessary for life and suggests that similar processes might occur on other celestial bodies."
+        Significance: "The ability to sustain life in darkness demonstrates the versatility of biological processes and expands our understanding of where life can exist. It challenges previous assumptions about the conditions necessary for life and suggests that similar processes might occur on other celestial bodies.",
     }
 ]
 

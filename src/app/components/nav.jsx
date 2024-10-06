@@ -9,7 +9,7 @@ export default () => {
     const navigation = [
         { title: "Home", path: "/" },
         { title: "Ecosystem", path: "/ecosystem" },
-        { title: "Education Resources", path: "education-resources" },
+        { title: "Additional Resources", path: "https://www.nasa.gov/specials/ocean-worlds/" },
         { title: "About Project", path: "about" }
     ]
 
@@ -21,15 +21,15 @@ export default () => {
     }, [])
 
     return (
-        <nav className={`bg-transparent pb-5 md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
+        <nav className={`bg-slate-50 pb-5 md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
             <div className="gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8">
                 <div className="flex items-center justify-between py-5 md:block">
                     <a href="javascript:void(0)">
                         <img
-                            src="https://www.floatui.com/logo.svg"
-                            width={120}
+                            src="/logo.png"
+                            width={50}
                             height={50}
-                            alt="Float UI logo"
+                            alt="Chemo logo"
                         />
                     </a>
                     <div className="md:hidden">
@@ -64,9 +64,9 @@ export default () => {
                             })
                         }
                     </ul>
-                    <div className="flex-1 gap-x-6 items-center justify-end mt-6 space-y-6 md:flex md:space-y-0 md:mt-0">
+                    <div className="rounded-md flex-1 gap-x-6 items-center justify-end mt-6 space-y-6 md:flex md:space-y-0 md:mt-0">
                         <a href="/chemosynthesis-fact-sheet.pdf" className="block text-white py-2 px-4 bg-[#134e4a] hover:text-gray-900">
-                            PDF Notes
+                            Publish Research
                         </a>
                     </div>
                 </div>

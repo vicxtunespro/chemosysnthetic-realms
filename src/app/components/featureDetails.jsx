@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function FeatureDetails({id, name, content, imageURL}) {
+export default function FeatureDetails({id, name, content, explanation, significance,  imageURL}) {
   return (
     <div className='py-32 px-4 lg:px-36 text-sm lg:text-xs'>
         <div className="flex flex-col gap-2">
@@ -16,13 +16,18 @@ export default function FeatureDetails({id, name, content, imageURL}) {
             </div>
             <div className='my-4 '>
               <p className='font-bold text-lg'>{name}</p>
-              <p className='font-bold text-lg'>additional informations</p>
+              <div className="mt-4">
+                <p className='font-bold text-lg'>{explanation}</p>
+              </div>
+              <div className="mt-4">
+                <p className='font-bold text-lg'>{significance}</p>
+              </div>
               <div className='flex justify-between py-4'>
                 <span className='flex flex-col'>
                     
                 </span>
                 <span className='flex flex-col'>
-                    <p>Group Size:</p>
+                    <p>Reads: 1k</p>
                     <p></p>
                 </span>
                 <span className='flex flex-col'>
