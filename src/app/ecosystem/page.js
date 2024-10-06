@@ -1,7 +1,10 @@
-import React from 'react'
+import ChemosynthesisEcosystem from "../components/ecosystem";
 
-export default function Ecosystem() {
+
+export default function Home() {
   return (
-    <div>Ecosystem</div>
-  )
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <ChemosynthesisEcosystem/>
+    </div>
+  );
 }

@@ -21,7 +21,7 @@ export default () => {
     }, [])
 
     return (
-        <nav className={`bg-white pb-5 md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
+        <nav className={`bg-transparent pb-5 md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
             <div className="gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8">
                 <div className="flex items-center justify-between py-5 md:block">
                     <a href="javascript:void(0)">
@@ -65,7 +65,7 @@ export default () => {
                         }
                     </ul>
                     <div className="flex-1 gap-x-6 items-center justify-end mt-6 space-y-6 md:flex md:space-y-0 md:mt-0">
-                        <a href="javascript:void(0)" className="block text-gray-700 hover:text-gray-900">
+                        <a href="/chemosynthesis-fact-sheet.pdf" className="block text-white py-2 px-4 bg-[#134e4a] hover:text-gray-900">
                             PDF Notes
                         </a>
                     </div>
